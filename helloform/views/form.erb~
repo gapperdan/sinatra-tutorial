@@ -18,7 +18,7 @@
       <br>
       <input type="password" name="password">
       <br>
-      <input type="submit" value="Login" name="submit">
+      <button type="submit" name="submit_btn">Login</button>
     </div>
   </div>
 </form>
