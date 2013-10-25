@@ -6,8 +6,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/form.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382675831389" ignored="false" />
     <file path="/temp.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382715812698" ignored="false" />
-    <file path="/main-controller.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382719684022" ignored="false" />
-    <file path="/login.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382719775422" ignored="false" />
+    <file path="/main-controller.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382722673106" ignored="false" />
+    <file path="/login.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382722679930" ignored="false" />
     <file path="/master.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382718250744" ignored="false" />
     <file path="/knight.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382718788068" ignored="false" />
     <file path="/padawan.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382718816107" ignored="false" />
@@ -30,19 +30,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main-controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="main-controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="9" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
+            <state line="22" column="34" selection-start="467" selection-end="467" vertical-scroll-proportion="-0.088193454">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="login.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/login.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="8" selection-start="261" selection-end="261" vertical-scroll-proportion="0.28718704">
+            <state line="6" column="20" selection-start="89" selection-end="89" vertical-scroll-proportion="-3.75">
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
@@ -103,8 +103,8 @@
         <option value="$PROJECT_DIR$/views/master.erb" />
         <option value="$PROJECT_DIR$/views/knight.erb" />
         <option value="$PROJECT_DIR$/views/padawan.erb" />
-        <option value="$PROJECT_DIR$/main-controller.rb" />
         <option value="$PROJECT_DIR$/views/login.erb" />
+        <option value="$PROJECT_DIR$/main-controller.rb" />
       </list>
     </option>
   </component>
@@ -442,22 +442,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="9" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/login.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="8" selection-start="261" selection-end="261" vertical-scroll-proportion="0.28718704">
+        <state line="6" column="20" selection-start="89" selection-end="89" vertical-scroll-proportion="-3.75">
           <folding>
             <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main-controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="34" selection-start="467" selection-end="467" vertical-scroll-proportion="-0.088193454">
+          <folding />
         </state>
       </provider>
     </entry>

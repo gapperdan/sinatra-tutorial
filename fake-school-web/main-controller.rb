@@ -3,7 +3,7 @@ require 'sinatra'
 #http://localhost:4567
 
 JEDI_MASTER = 'yoda'
-JEDI_KNIGHT = 'obi wan'
+JEDI_KNIGHT = 'obi-wan'
 JEDI_PADAWAN = 'anakin'
 
 INVALID_LOGIN = 'The force is not with you, please try again.'
@@ -12,9 +12,9 @@ get '/' do
   erb :login
 end
 
-post '/' do
+post '/login' do
 
-  VALID_USERS = ['obi wan','yoda','anakin']
+  VALID_USERS = ['obi-wan','yoda','anakin']
   VALID_PASSWORD = 'force'
 
   puts params[:username].downcase
@@ -61,7 +61,6 @@ get '/padawan' do
   @username = params[:username].capitalize
   erb :padawan
 end
-
 
 #404 catcher
 not_found do

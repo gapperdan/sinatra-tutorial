@@ -15,8 +15,8 @@
     <file path="/form.erb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382675831388" ignored="false" />
     <file path="/helloworld.rb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382675352218" ignored="false" />
     <file path="/temp.rb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382715812498" ignored="false" />
-    <file path="/main-controller.rb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382719684022" ignored="false" />
-    <file path="/login.erb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382719775422" ignored="false" />
+    <file path="/main-controller.rb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382722673105" ignored="false" />
+    <file path="/login.erb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382722679930" ignored="false" />
     <file path="/master.erb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382718250743" ignored="false" />
     <file path="/knight.erb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382718788068" ignored="false" />
     <file path="/padawan.erb" changelist="d0b9171e-d423-4cd8-ac9c-9660883ad1f1" time="1382718816107" ignored="false" />
@@ -51,7 +51,7 @@
       <file leaf-file-name="login.erb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fake-school-web/views/login.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="10" selection-start="593" selection-end="593" vertical-scroll-proportion="0.5982275">
+            <state line="27" column="10" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5982275">
               <folding>
                 <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
@@ -492,7 +492,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fake-school-web/views/login.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="10" selection-start="593" selection-end="593" vertical-scroll-proportion="0.5982275">
+        <state line="27" column="10" selection-start="598" selection-end="598" vertical-scroll-proportion="0.5982275">
           <folding>
             <element signature="n#style#0;n#div#0;n#form#0;n#body#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#form#0;n#body#0;n#!!top" expanded="true" />
