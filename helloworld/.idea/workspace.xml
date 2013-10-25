@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4764e3ed-3a0d-4ad4-b255-e748a3e00481" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../fake-school-web/views/login.erb" afterPath="$PROJECT_DIR$/../fake-school-web/views/login.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../fake-school-web/main-controller.rb" afterPath="$PROJECT_DIR$/../fake-school-web/main-controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../fake-school-web/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../fake-school-web/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="4764e3ed-3a0d-4ad4-b255-e748a3e00481" name="Default" comment="" />
     <ignored path="helloworld.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="4764e3ed-3a0d-4ad4-b255-e748a3e00481" time="1382715542147" ignored="false" />
