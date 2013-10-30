@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<head>
+  <title>Foo Store</title>
+</head>
+
+<body>
+<form action="/login" method="post">
+
+  <h1>Welcome to Foo Store</h1>
+  <h3>Please login</h3>
+
+  <div style="color: red;"
+  ><%= @errmsg %>
+  </div>
+
+  <div style="width:230px">
+    <div style="float:left;">
+      Name: &nbsp;
+      <br>
+      Password: &nbsp;
+    </div>
+    <div style="float: right;">
+      <input type="text" name="username">
+      <br>
+      <input type="password" name="password">
+      <br>
+      <input type="submit" value="Login" name="submit">
+    </div>
+  </div>
+</form>
+</body>
+</html>

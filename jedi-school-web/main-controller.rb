@@ -17,8 +17,6 @@ post '/login' do
   VALID_USERS = ['obi-wan','yoda','anakin']
   VALID_PASSWORD = 'force'
 
-  puts params[:username].downcase
-
   if VALID_USERS.include? params[:username].downcase and VALID_PASSWORD == params[:password].downcase
     redirect to '/authorized?username='+params[:username].downcase
   else

@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <head>
-  <title>Jedi Knight Page</title>
+  <title>Jedi Padawan Page</title>
 </head>
 
 <body>
 
-<div id="page_hdr">	
- <h1>Jedi Knight Page</h1>
-</div>
+<h1>Jedi Padawan Page</h1>
 
 <div style="">
   <div style="float:left;">

@@ -4,16 +4,14 @@
 </head>
 
 <body>
-	
-  <div id="page_hdr">	
-   <h1>Jedi Master Page</h1>
-  </div>
-   
+
+  <h1>Jedi Master Page</h1>
+
   <div style="">
     <div id="welcome_div" style="float:left;">
       Welcome, <%= @username %>.&nbsp;&nbsp;
     </div>
-    <div id="logout" style="float: left;">
+    <div style="float: left;">
       <a href="/">logout</a>
     </div>
   </div>
