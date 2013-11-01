@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+<title>Foo Tix List</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/foo.css">
+</head>
+<h1>Foo Tix List</h1>
+<div id="welcome">Welcome, <%=@username%></div>
+<body>
+<form>
+
+<br />
+<div id="data_table" class="datagrid" style="width:600px">
+<table>
+    <thead>
+        <tr><th>Event</th><th>Venue</th><th>Seat</th><th>Price</th><th>Buy</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>Foo Fighters Tour</td><td>Oracle Arena/Oakland/CA</td><td>Section 1, Row A, Seat 7</td><td>$75</td><td><a href="">Buy</a></td></tr>
+        <tr class="alt"><td>Foo Fighters Tour</td><td>Oracle Arena/Oakland/CA</td><td>Section 15, Row J, Seat 11</td><td>$35</td><td><a href="">Buy</a></td></tr>
+    </tbody>
+</table>
+</div>
+
+<br />
+<div id="total_items">Total items in cart: <%=@@total_items_in_cart%></div>
+<br />
+<input type="submit" value="Checkout" name="checkout">
+
+  <br/>
+  <% @@tickets.each do |key, value |
+  ticket = value %>
+  <%= ticket.artist%> - <%= ticket.venue%> - <%= ticket.seat %> - <%= ticket.price %>
+  <br/>
+  <% end %>
+
+</form>
+</body>
+</html>

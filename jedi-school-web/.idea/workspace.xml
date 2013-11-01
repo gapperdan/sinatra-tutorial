@@ -6,8 +6,8 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/form.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382675831389" ignored="false" />
     <file path="/temp.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382991596203" ignored="false" />
-    <file path="/main-controller.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383092612285" ignored="false" />
-    <file path="/login.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383088334023" ignored="false" />
+    <file path="/main-controller.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383293269178" ignored="false" />
+    <file path="/login.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383286546914" ignored="false" />
     <file path="/master.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382718250744" ignored="false" />
     <file path="/knight.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382718788068" ignored="false" />
     <file path="/padawan.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1382718816107" ignored="false" />
@@ -47,6 +47,14 @@
     <file path="$PROJECT_DIR$/../foo-store-web/public/stylesheets/foo.css" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383092006346" ignored="false" />
     <file path="/foo.css" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383091968891" ignored="false" />
     <file path="/a.dummy" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383165562513" ignored="false" />
+    <file path="$PROJECT_DIR$/../foo-tickets-web/views/login.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383286546914" ignored="false" />
+    <file path="$PROJECT_DIR$/../foo-tickets-web/views/main.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383287291597" ignored="false" />
+    <file path="/main.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383292608352" ignored="false" />
+    <file path="$PROJECT_DIR$/../foo-tickets-web/main-controller.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383293344967" ignored="false" />
+    <file path="$PROJECT_DIR$/../foo-tickets-web/views/ticket_list.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383292685845" ignored="false" />
+    <file path="/ticket_list.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383292664680" ignored="false" />
+    <file path="$PROJECT_DIR$/../foo-tickets-web/models/ticket.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383293089133" ignored="false" />
+    <file path="/ticket.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383292949882" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,6 +170,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fake-school-web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -190,16 +208,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fake-school-web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -208,8 +216,8 @@
     <property name="options.lastSelected" value="fileColors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../foo-tickets-web" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -342,9 +350,9 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2860262" sideWeight="0.5720165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29039302" sideWeight="0.5720165" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2860262" sideWeight="0.4266118" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29039302" sideWeight="0.4266118" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
