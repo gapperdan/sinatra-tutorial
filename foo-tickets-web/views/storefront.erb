@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title>Foo Storefront</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/foo.css">
+</head>
+<h1>Storefront</h1>
+<div id="welcome">Welcome, <%=@username%></div>
+<body>
+<form>
+
+  <br />
+  <div id="data_table" class="datagrid" style="width:600px"><table>
+    <thead><tr><th>Item Description</th><th>In Stock?</th><th>Price</th><th>Add to Cart</th></tr></thead>
+    <tbody><tr><td>Unicorn Meat</td><td>Yes</td><td>$19.99</td><td><input type="submit" value="Add to cart" name="add_to_cart"></td></tr>
+    <tr class="alt"><td>Flux Capacitor</td><td>Yes</td><td>$1,000,000.98</td><td><input type="submit" value="Add to cart" name="add_to_cart"></td></tr>
+
+    </tbody>
+  </table></div>
+
+  <br />
+  <div id="total_items">Total items in cart: <%=@@total_items_in_cart%></div>
+  <br />
+  <input type="submit" value="Checkout" name="checkout">
+
+</form>
+</body>
+</html>
