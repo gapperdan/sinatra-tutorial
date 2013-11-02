@@ -1,5 +1,10 @@
 To run using shotgun gem:
-$ shotgun main-controller.rb
+$ shotgun foo_tix_controller.rb
+
+Load the mock data first:
+http://localhost:9393/load
 
 Then point browser to:
-http://localhost:9393/foostore
+http://localhost:9393/footix
+
+login with any name, password is "password"

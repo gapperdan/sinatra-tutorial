@@ -50,7 +50,7 @@
     <file path="$PROJECT_DIR$/../foo-tickets-web/views/login.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383286546914" ignored="false" />
     <file path="$PROJECT_DIR$/../foo-tickets-web/views/main.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383287291597" ignored="false" />
     <file path="/main.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383292608352" ignored="false" />
-    <file path="$PROJECT_DIR$/../foo-tickets-web/main-controller.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383293344967" ignored="false" />
+    <file path="$PROJECT_DIR$/../foo-tickets-web/main-controller.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383293347480" ignored="false" />
     <file path="$PROJECT_DIR$/../foo-tickets-web/views/ticket_list.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383292685845" ignored="false" />
     <file path="/ticket_list.erb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383292664680" ignored="false" />
     <file path="$PROJECT_DIR$/../foo-tickets-web/models/ticket.rb" changelist="529ac917-1c35-49f4-88c9-65a5f2b24fdb" time="1383293089133" ignored="false" />
@@ -216,8 +216,8 @@
     <property name="options.lastSelected" value="fileColors" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../foo-tickets-web" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
@@ -344,15 +344,15 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="22" width="1420" height="826" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29039302" sideWeight="0.5720165" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29475984" sideWeight="0.5720165" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29039302" sideWeight="0.4266118" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29475984" sideWeight="0.4266118" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -517,16 +517,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/knight.erb">
+    <entry file="file://$PROJECT_DIR$/views/master.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/master.erb">
+    <entry file="file://$PROJECT_DIR$/views/knight.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>

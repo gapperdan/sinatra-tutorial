@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+  <title>Foo Tix Buy</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/foo.css">
+</head>
+<h1>Foo Tix Buy</h1>
+
+<body>
+<form action="/footix/process_buy?nbr=<%=@nbr%>" method="post">
+
+  <br />
+  <div id="data_table" class="datagrid" style="width:600px">
+    <table>
+      <thead>
+      <tr><th>Artist</th><th>Venue</th><th>Seat</th><th>Price</th></tr>
+      </thead>
+      <tbody>
+
+      <tr><td><%=@artist%></td><td><%=@venue%></td><td><%=@seat%></td><td><%=@price%></td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <br />
+  <h4>Payment Information:</h4>
+  <div id="cc_type">
+  <b>Credit Card Type:</b>
+    <select name='cc_type' id='cc_type'>
+      <option value=''>Select one</option>
+      <option value='visa'>Visa</option>
+      <option value='mc'>Mastercard</option>
+      <option value='amex'>American Express</option>
+      <option value='disc'>Discovery</option>
+    </select>
+
+  </div>
+
+  <div id="cc_nbr"><b>Credit Card Number:</b><input type="text" name="cc_nbr" size="16" maxlength="16" required></div>
+
+  <div id="cc_exp">
+    <b>Expire Month (MM)</b><input type="text" name="cc_exp_mo" size="2" maxlength="2" required="Pls enter Expiry Month">
+
+    <b>Expire Year (YY)</b><input type="text" name="cc_exp_yr" size="4" maxlength="4" required="Pls enter Expiry Year">
+  </div>
+  <br />
+  <% fee = 10 %>
+  <% total = fee + Integer(@price) %>
+  <div id="tax"><b>Convenience Fee: $<%=fee%></b></div>
+  <div id="total"><b>Total: $<%=total%></b></div>
+
+  <br />
+  <input type="submit" value="Buy" name="buy">
+
+</form>
+</body>
+</html>
