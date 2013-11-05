@@ -23,9 +23,9 @@
 
   <br />
   <h4>Payment Information:</h4>
-  <div id="cc_type">
+  <div>
   <b>Credit Card Type:</b>
-    <select name='cc_type' id='cc_type'>
+    <select name='cc_type' id='cc_type_select'>
       <option value=''>Select one</option>
       <option value='visa'>Visa</option>
       <option value='mc'>Mastercard</option>
@@ -40,13 +40,13 @@
   <div id="cc_exp">
     <b>Expire Month (MM)</b><input type="text" name="cc_exp_mo" size="2" maxlength="2" required="Pls enter Expiry Month">
 
-    <b>Expire Year (YY)</b><input type="text" name="cc_exp_yr" size="4" maxlength="4" required="Pls enter Expiry Year">
+    <b>Expire Year (YYYY)</b><input type="text" name="cc_exp_yr" size="4" maxlength="4" required="Pls enter Expiry Year">
   </div>
   <br />
   <% fee = 10 %>
   <% total = fee + Integer(@price) %>
-  <div id="tax"><b>Convenience Fee: $<%=fee%></b></div>
-  <div id="total"><b>Total: $<%=total%></b></div>
+  <div><b>Convenience Fee: $<div id="fee" style="display:inline;"><%=fee%></b></div>
+  <div><b>Total: $<div id="total" style="display:inline;"><%=total%></b></div>
 
   <br />
   <input type="submit" value="Buy" name="buy">

@@ -25,6 +25,18 @@ post '/footix/login' do
 end
 
 get '/footix/authorized' do
+	
+  @@tickets = {}
+  @@tickets = data_mock
+  @@tickets.each do |key, value |
+    a_ticket = value
+    puts a_ticket.artist + '/' + a_ticket.seat
+  end
+
+  #put the ticket hash in the session
+  session.clear
+  session[:tickets] ||= @@tickets		
+	
   redirect to '/footix/ticket_list?username='+params[:username]
 end
 
